@@ -1,5 +1,13 @@
 # Android CropImage
 
+This library is a fork of another library with the same name (here: https://github.com/lvillani/android-cropimage ).
+
+As opposed to the other library, it supports Android API 8 and above. That's the main difference. The rest is for cleaning some code.
+
+Here's the original documentation:
+
+--------------------------------------------------------------------------------
+
 <img src="https://cdn.rawgit.com/lvillani/android-cropimage/f55253d2be3e6c28a06dd8bdd1e45aa7fd0b22a1/logo.svg" align="right" width="200" height="200"/>
 
 [![License](http://img.shields.io/badge/license-Apache%202.0-blue.svg?style=flat)](http://choosealicense.com/licenses/apache-2.0/)

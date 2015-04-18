@@ -15,15 +15,16 @@ repositories {
 }
 
 android {
-    compileSdkVersion rootProject.ext.compileSdkVersion
-    buildToolsVersion rootProject.ext.buildToolsVersion
+    compileSdkVersion 22
+    buildToolsVersion "21.1.2"
 
     defaultConfig {
-        minSdkVersion rootProject.ext.minSdkVersion
-        targetSdkVersion rootProject.ext.targetSdkVersion
+        minSdkVersion 8
+        targetSdkVersion 22
     }
 }
 
 dependencies {
+    compile 'com.android.support:appcompat-v7:22.0.0'
     compile project(':CropImage')
 }

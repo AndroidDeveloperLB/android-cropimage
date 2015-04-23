@@ -4,7 +4,7 @@ import android.content.Intent;
 import android.graphics.BitmapFactory;
 import android.net.Uri;
 import android.os.Bundle;
-import android.support.v7.app.ActionBarActivity;
+import android.support.v7.app.AppCompatActivity;
 import android.view.Menu;
 import android.view.MenuItem;
 import android.widget.ImageView;
@@ -13,7 +13,7 @@ import com.android.camera.CropImageIntentBuilder;
 
 import java.io.File;
 
-public class MainActivity extends ActionBarActivity
+public class MainActivity extends AppCompatActivity
   {
   private static final int REQUEST_PICTURE=1;
   private static final int REQUEST_CROP_PICTURE=2;

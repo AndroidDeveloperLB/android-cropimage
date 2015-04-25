@@ -16,12 +16,11 @@
 
 package com.android.camera;
 
-import android.app.Activity;
 import android.os.Bundle;
 
 import java.util.ArrayList;
 
-public class MonitoredActivity extends NoSearchActivity {
+public abstract class MonitoredActivity extends NoSearchActivity {
 
     private final ArrayList<LifeCycleListener> mListeners =
             new ArrayList<LifeCycleListener>();
